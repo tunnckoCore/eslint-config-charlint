@@ -13,11 +13,13 @@
     "max-params": "error",
     "max-statements": "error",
     "max-statements-per-line": ["error", { "max": 1 }],
-    "max-nested-callbacks": ["error", { "max": 3 }],
-    "max-depth": ["error", { "max": 3 }],
+    "max-nested-callbacks": ["error", { "max": 5 }],
+    "max-depth": ["error", { "max": 5 }],
 
-    "quote-props": ["error", "as-needed", { "keywords": true }],
-    "arrow-body-style": ["error", "as-needed", { "requireReturnForObjectLiteral": false }],
+    "quote-props": ["error", "consistent-as-needed", { "keywords": true }],
+    "arrow-body-style": ["error", "as-needed", {
+      "requireReturnForObjectLiteral": false
+    }],
     "arrow-parens": ["error", "always"],
     "no-confusing-arrow": "error",
     "no-extra-semi": "error",
@@ -28,8 +30,6 @@
       "object": true
     }, {
       "enforceForRenamedProperties": true
-    }],
-
-    "newline-before-return": "error"
+    }]
   }
 }

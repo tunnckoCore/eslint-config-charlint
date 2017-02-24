@@ -24,7 +24,7 @@ test('eslint-config-charlint', (done) => {
 test('load config in eslint to validate all rule syntax is correct', (done) => {
   const cli = new eslint.CLIEngine({
     useEslintrc: false,
-    configFile: 'eslintrc.json'
+    configFile: './.eslintrc.json'
   })
 
   const code = 'var foo = (a, b, c, d) => 123'
