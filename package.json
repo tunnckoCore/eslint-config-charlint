@@ -1,14 +1,14 @@
 {
   "name": "eslint-config-charlint",
   "version": "0.1.0",
-  "description": "Shareable config for charlint - a configuration on top of StandardJS v9",
+  "description": "Code style: Charlike. Thin layer on top of the Standard JavaScript Style v9, for more readable code.",
   "repository": "tunnckoCore/eslint-config-charlint",
   "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
   "precommit.silent": true,
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "standard **/*.js --fix --verbose",
+    "lint": "eslint index.js test.js --fix",
     "test": "npm-run-all -s lint test:*",
     "test:api": "nyc --reporter lcov node test.js",
     "test:report": "nyc report",
@@ -34,11 +34,11 @@
     "npm-run-all": "^4.0.1",
     "nyc": "^10.1.2",
     "pre-commit": "^1.2.2",
-    "standard": "^9.0.0-beta.0",
     "standard-version": "^4.0.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    ".eslintrc.json"
   ],
   "keywords": [
     "charlike",
@@ -85,7 +85,21 @@
     },
     "lint": {
       "reflinks": true
-    }
+    },
+    "reflinks": [
+      "always-done",
+      "async-done",
+      "base",
+      "charlike",
+      "commitizen",
+      "dezalgo",
+      "once",
+      "standard-version",
+      "verb",
+      "verb-generate-readme",
+      "eslint",
+      "standard"
+    ]
   },
   "engines": {
     "node": ">=4",
