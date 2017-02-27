@@ -40,7 +40,20 @@
   "files": [
     "index.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "charlike",
+    "charlint",
+    "config",
+    "configuration",
+    "eslint",
+    "esnext",
+    "free",
+    "share",
+    "shareable",
+    "standard",
+    "standardjs",
+    "style"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
