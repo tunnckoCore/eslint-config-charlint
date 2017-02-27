@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-charlint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Code style: Charlike. Thin layer on top of the Standard JavaScript Style v9, for more readable code.",
   "repository": "tunnckoCore/eslint-config-charlint",
   "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
