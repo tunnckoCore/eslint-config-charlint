@@ -155,19 +155,6 @@ _Project scaffolded using [charlike][] cli._
 [verb-generate-readme]: https://github.com/verbose/verb-generate-readme
 [verb]: https://github.com/verbose/verb
 
-[always-done]: https://github.com/hybridables/always-done
-[async-done]: https://github.com/gulpjs/async-done
-[base]: https://github.com/node-base/base
-[charlike]: https://github.com/tunnckocore/charlike
-[commitizen]: https://github.com/commitizen/cz-cli
-[dezalgo]: https://github.com/npm/dezalgo
-[eslint]: http://eslint.org
-[once]: https://github.com/isaacs/once
-[standard-version]: https://github.com/conventional-changelog/standard-version
-[standard]: http://standardjs.com
-[verb-generate-readme]: https://github.com/verbose/verb-generate-readme
-[verb]: https://github.com/verbose/verb
-
 [downloads-url]: https://www.npmjs.com/package/eslint-config-charlint
 [downloads-img]: https://img.shields.io/npm/dt/eslint-config-charlint.svg
 
